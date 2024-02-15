@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>fieldsets</title>
+
+        <body>
+            <fieldset>
+            <form action="succesfulreg.html" target="_blank">
+                <fieldset>
+                    <legend>User Details</legend>
+                    First Name : <input type="text"><br><br>
+                    Last Name : <input type="text"><br><br>
+                    Email id : <input type="email"><br><br>
+                    Phone No. : <input type="number"><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="Address"> Address : </label>
+                    <textarea name="add" id="add" cols="60" rows="5" style="font-size: 20;"></textarea><br><br>
+                    Pincode : <input type="number"><br><br>
+                    email id : <input type="email"><br><br>
+                    Aadhaar No. : <input type="number"><br><br>
+                    Pan No. : <input type="number"><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Professional Details</legend>
+                    <label for="degree">Highest degree (SSC/Intermediate/diploma/UG/PG) : </label> 
+                   <textarea name="degree" id="degree" cols="20" rows="5"style="font-size: 20;"></textarea><br><br>
+                   <b style="color:red;"><mark>Technologies :</mark> </b><br><br>
+                   <label for="known">Known Technologies :</label>
+                   <textarea name="known" id="known" cols="20" rows="5"style="font-size: 20;"></textarea><br>
+                   <label for="projects">Projects (if any done) :</label>
+                   <textarea name="proj" id="proj" cols="20" rows="5"style="font-size: 20;"></textarea><br>
+                   <label for="internships">Internships (if any involved) :</label>
+                   <textarea name="intern" id="intern" cols="20" rows="5"style="font-size: 20;"></textarea>
+
+                </fieldset><br>
+                <button onclick="alert('submitting your details!!')"><b>Submit</b></button>
+            </fieldset>
+        </body>
+        <style>
+            button{
+                height: 40;
+                width: 80;
+                border-color: black ;
+                border-radius: 10px;
+                background-color: pink;
+                margin-left: 700;
+            }
+            body{
+             background-image: url(background.webp);
+             background-size: cover;
+             font-size: 23;
+            }
+            legend{
+                font-size: 30;
+                text-align: center;
+                color:cyan;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            fieldset{
+                border-color: blue;
+            }
+        </style>
+    </form>
+    </head>
+</html>
