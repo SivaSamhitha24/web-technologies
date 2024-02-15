@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Canvas</title>
+        <body>
+            <nav><a href="tt.html">Timetable</a> 
+             <a href="moviereview.html">Home</a></nav>
+            <canvas id="abc" height="400" width="400" style="border: 2px solid black;margin-left: 600;">
+                <p><img id="logo" src="SVEC_logo.png" alt=""></p>
+                <iframe src="mcdonaldsrestaurant.jpg" frameborder="2"></iframe>
+            <script> 
+                var canvas=document.getElementById("abc");
+                var c=canvas.getContext("2d");
+                
+                c.fillStyle="cyan";
+                c.fillRect(0,100,1000,400);
+c.moveTo(0,0);
+c.lineTo(400,400);
+c.beginPath();
+c.arc(95, 50, 40, 0, 2 * Math.PI);
+c.strokeStyle="violet";
+c.stroke();
+            </script>
+            </canvas>
+        </body>
+        <style>
+            nav{
+                background-color: grey;
+                padding: 10;
+                font-size: 20px;
+                word-spacing: 20px;
+            }
+        </style>
+    </head>
+</html>
+
